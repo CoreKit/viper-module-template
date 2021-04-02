@@ -1,5 +1,5 @@
 //
-//  {module}View.swift
+//  {name}View.swift
 //  {project}
 //
 //  Created by {author} on {date}.
@@ -8,9 +8,9 @@
 import Foundation
 import UIKit
 
-final class {module}View: UIViewController, ViewInterface {
+final class {name}View: UIViewController, ViewInterface {
 
-    var presenter: {module}PresenterViewInterface!
+    var presenter: {name}PresenterViewInterface!
 
 
     override func viewDidLoad() {
@@ -21,6 +21,6 @@ final class {module}View: UIViewController, ViewInterface {
 
 }
 
-extension {module}View: {module}ViewPresenterInterface {
+extension {name}View: {name}ViewPresenterInterface {
 
 }
