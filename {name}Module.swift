@@ -42,7 +42,7 @@ protocol {name}ViewPresenterInterface: ViewPresenterInterface {
 
 // MARK: - name builder
 
-final class {name}name: nameInterface {
+final class {name}name: ModuleInterface {
 
     typealias View = {name}View
     typealias Presenter = {name}Presenter
